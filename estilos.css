@@ -1,0 +1,183 @@
+/* reset do css 
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+     display: block;
+   }
+   body {
+     line-height: 1;
+     font-family: 'Inconsolata', monospace;
+   }
+   ol, ul {
+     list-style: none;
+   }
+   blockquote, q {
+     quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+     content: '';
+     content: none;
+   }
+   table {
+     border-collapse: collapse;
+     border-spacing: 0;
+   }
+   /*Menu+Fonte de letra+Menu "lado a lado"*/
+   .menu ul{
+     top: 5px;
+     display: flex;
+     justify-content: space-around;
+     font-weight: 900;
+     font-family: arial;
+     position: fixed;
+     width: 100vw;
+   }
+   /*Cor de links*/
+   a {
+     color:darkred;
+     text-decoration: none;
+     font-family: 'Caveat Brush', cursive;
+   }
+   /*Titulo+Caixa+sombra*/
+   h1 { 
+    color: darkred;
+    box-shadow: darkred 16px 13px 15px -8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 4px dashed rgb(87, 74, 74);
+    height: 50px;
+    width: 260px;
+    font-size: 42px;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 200;
+   }
+   /*Texto*/
+   h2 {
+     color: whitesmoke;
+     text-align: center;
+     padding-top: 5px;
+     font-size: 1.5em;
+   }
+   h3,h4, h5 {
+   color: brown;
+   text-align: center;
+   font-weight: 900;
+   font-size: 70px;
+   margin-top: 100px;
+   }
+   h5 {
+   margin-top: 1000px;
+   }  
+   figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   /*Background*/
+   body {
+     background-color: black;
+    /* background-image: url('../img/fundo.jpg');
+     background-size: 100vw auto;
+     background-repeat: no-repeat;
+   */
+    }
+
+   /* Media de tela para 1300px*/
+   @media (max-width: 1300px) {
+     h5, h3 {
+       font-size: 50px;
+     }
+   }
+   @media (max-width: 1100px) {
+     h4{
+       font-size: 770px;
+     }
+   }
+   
+   /* Media de tela para 977px*/
+   @media (max-width: 977px) {
+     h5, h3 {
+       font-size: 45px;
+      }
+      figure img {
+       width: 767px;
+       height: 630px;
+       margin-left: auto;
+       margin-right: auto;
+     }
+   }
+   
+   @media (max-width: 770px) {
+     h4{
+       font-size: 500px;
+      }
+      figure img {
+       width: 497px;
+       height: 360px;
+       margin-left: auto;
+       margin-right: auto;
+     }
+   }
+   
+   /* Media de tela para 520px*/
+   @media (max-width: 520px) {
+     h5, h3 {
+       font-size: 30px;
+     }
+   }
+   @media (max-width: 520px) {
+     h4{
+       font-size: 300px;
+     }
+     figure img {
+      width: 357px;
+      height: 220px;
+      margin-left: auto;
+      margin-right: auto;
+     }
+   }
+   
+   /* Media de tela para 360px*/
+   @media (max-width: 360px) {
+     h5, h3 {
+       font-size: 20px;
+     }
+   }
+   @media (max-width: 360px) {
+     h4{
+       font-size: 190px;
+    }
+       figure img {
+        width: 287px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+   }
